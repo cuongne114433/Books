@@ -1,0 +1,95 @@
+1. Can you describe a complex Java application you've developed and your role in it?
+2. How do you handle exceptions in Java? Can you give an example where you've used custom exceptions?
+
+3. What are some best practices for designing RESTful APIs? How do you handle versioning and backward compatibility?
+- add version in api like: api/v1/...
+- add toggle flag
+
+4. Can you explain the difference between multi-threading, multi-tasking, and multi-processing? How have you implemented these concepts in your projects?
+
+5. What is a hash table, and how does it work in Java? Can you explain its time complexity for different operations?
+6 How do you handle security in RESTful APIs? Can you discuss authentication and authorization mechanisms you've used?
+	- 1. Xác thực (Authentication) bao gồm có: Basic Authentication, JWT, OAuth 2.0:
+	- 2. Ủy quyền (Authorization): RBAC (Role-Based Access Control), ABAC (Attribute-Based Access Control), Access Control Lists - ACLs
+	- 3. Bảo vệ API: Sử dụng HTTPS, Rate Limiting, Validation và Sanitation, Logging và Monitoring
+
+8 Can you explain the microservices architecture? How do you manage inter-service communication and data consistency in a microservices environment?
+	- Quản lý tính nhất quán của dữ liệu (Data Consistency): Saga Pattern, CQRS (Command Query Responsibility Segregation):
+	
+9 Have you worked with Enterprise Service Bus (ESB)? Can you explain its purpose and how it integrates with other systems?
+
+10 How do you implement caching in a distributed system? What strategies have you used to ensure data consistency and cache invalidation?
+	- In-Memory Caching and Distributed Caching
+	- Các chiến lược đảm bảo tính nhất quán dữ liệu và invalidation:
+
+11. Can you describe your experience with load balancers and reverse proxies? How do they contribute to the scalability and reliability of a system?
+	- load balance: dung để phân phối request đến các máy chủ, Load balancer nhận tất cả các yêu cầu từ người dùng và phân phối chúng đến một trong các máy chủ backend dựa trên một thuật toán cụ thể, chẳng hạn như Round Robin, Least Connections, hoặc IP Hash.
+	- Reverse Proxy (Proxy ngược): 
+	- Tích hợp Load Balancer và Reverse Proxy
+
+12. What is your experience with Java frameworks like Spring, Struts, and Hibernate? Can you explain a scenario where you used one of these frameworks to solve a particular problem?
+
+13 How have you used CI/CD tools like Jenkins and GitLab in your development workflow? Can you describe a CI/CD pipeline you have set up?
+
+14 What are the advantages of using Docker and Kubernetes for deployment? Can you describe a situation where you've used these technologies?
+
+15 Can you discuss your experience working with Enterprise Linux and Windows Server environments? How do you manage deployments and system monitoring in these environments?
+16 Have you worked with web containers like JBOSS, Weblogic, or IBM WebSphere? How do you deploy and manage applications in these containers?
+Problem-Solving and Challenges
+
+Can you describe a challenging problem you faced in one of your projects and how you resolved it?
+How do you approach debugging and optimizing the performance of a Java application?
+
+Java Language and Core Concepts
+
+What are the differences between an interface and an abstract class in Java? Can you provide examples of when to use each?
+How does Java's memory management work, especially concerning the heap and stack? Can you explain garbage collection and different types of garbage collectors available in Java?
+What is the difference between synchronized and volatile keywords in Java? How do they impact thread safety?
+Advanced Java Concepts
+
+Can you explain the concept of Java Reflection? How have you used it in your projects?
+
+How do you implement design patterns in your applications? Can you discuss an example of a pattern like Singleton, Factory, or Observer that you have implemented?
+
+What is Java's Stream API, and how does it facilitate functional programming? Can you provide an example where you used it to simplify code?
+Database and Data Handling
+
+
+How do you handle database transactions in a Java application? Can you explain the concepts of ACID properties and transaction isolation levels?
+Have you worked with ORM frameworks like Hibernate? Can you explain the difference between eager and lazy loading and when you might use each?
+How do you optimize database queries and manage performance issues in a Java application?
+Web Services and Integration
+
+Can you explain how you handle data serialization and deserialization when working with web services? What libraries or frameworks have you used?
+How do you manage API versioning in a microservices architecture? Can you provide an example from your experience?
+What are the common HTTP status codes you use when designing RESTful APIs, and what do they signify?
+Security
+
+How do you secure sensitive data in Java applications? Can you discuss encryption, hashing, and key management?
+What are the common security vulnerabilities in web applications, and how do you mitigate them?
+Can you explain how OAuth2 and JWT work for securing APIs?
+DevOps and Continuous Integration/Deployment
+
+How do you automate the build and deployment process in a Java application? Can you describe the tools and techniques you've used?
+What is your experience with infrastructure as code (IaC) tools like Terraform or Ansible? How have you used them in setting up environments?
+Can you discuss a scenario where you've implemented continuous monitoring and logging for a production application?
+System Design and Architecture
+
+How would you design a scalable and high-availability system for a Java-based web application? What considerations would you keep in mind?
+Suppose you need to migrate a monolithic Java application to a microservices architecture. What steps would you take, and what challenges might you encounter?
+Performance and Optimization
+
+How do you approach performance testing and optimization in a Java application? Can you discuss a time when you identified and resolved a performance bottleneck?
+How would you handle a situation where a Java application experiences memory leaks? What tools and methods would you use to diagnose and fix the issue?
+Handling Failure and Recovery
+
+Can you discuss a time when you faced a critical failure in a production system? How did you manage the situation and ensure minimal impact?
+How do you implement fault tolerance and resilience in a distributed system? Can you provide examples of patterns like Circuit Breaker or Bulkhead?
+Team Collaboration and Agile Practices
+
+How do you prioritize tasks and manage your time when working on multiple projects? Can you provide an example of how you've handled competing deadlines?
+How do you ensure code quality and consistency within a development team? What practices do you follow for code reviews and testing?
+Continuous Learning and Adaptation
+
+Can you discuss a time when you had to learn a new technology or framework quickly? How did you approach the learning process, and how did it impact your work?
+What do you do when faced with a technology or problem you are unfamiliar with? How do you go about finding a solution?
